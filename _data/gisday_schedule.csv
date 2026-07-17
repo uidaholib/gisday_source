@@ -1,0 +1,97 @@
+time,location,title,presenter,description,description_full
+8:45 am - 9:15 am,"Whitewater Room and Zoom",Welcome and Refreshments,,,
+9:15 am - 9:55 am,"Whitewater Room and Zoom","Water Management on the Palouse Basin","Michel Faupel (PBAC)",Keynote presentation,"The Palouse region relies solely on groundwater and our declining aquifers are shared between several entities. The Palouse Basin Aquifer Committee monitors and reports on water usage, and is working to provide long-term and high quality water sources to the region.
+
+##### Bio 
+
+As Executive Director of the Palouse Basin Aquifer Committee (PBAC), Mike Faupel works with cities, counties, and universities to ensure a long-term, quality water supply for the Palouse Basin region which serves as the sole source of drinking water across portions of eastern Washington and northern Idaho. Prior to working with PBAC Mike served as Chief Administrative Officer for The Sustainability Consortium and was a founding Board of Directors member and President of the Illinois River Watershed Partnership.
+
+When he's not promoting beneficial uses and conservation of water resources Mike can usually be found engaged in some form of water-based recreation such as boating, fishing or snow sports.
+
+##### Moderators
+
+- Bruce Godfrey (Library, University of Idaho)
+- Zoom: Norm Lee (Library, University of Idaho)
+"
+9:55 am - 10:35 am,"Whitewater Room and Zoom",Short Talks - Morning One,"Yesol Sapozhnikov (University of Idaho); Sarah Olson (University of Idaho); Gil Rezin (Washington State University)",Ten minute presentations highlighting recent geospatial-related work,"Presenters from across the geospatial, GIS, and drone community will give 10-minute presentations highlighting their recent work.
+
+##### Presentations
+
+- **Tackling Idaho's Healthcare Workforce Needs: Geospatial Insights to Guide Next Steps**, Yesol Sapozhnikov (Idaho Office of Underserved and Rural Medical Research, School of Health and Medical Professions, University of Idaho) -- ECHO (Extension for Community Healthcare Outcomes) Idaho is a tele-education program that offers expert training and peer support for providers in rural and frontier communities. We will present how IOURMR researchers analyzed the program enrollment data using GIS tools to evaluate participation patterns and identify regions that need more outreach and engagement. The research team consists of Yesol Sapozhnikov, Cassandra Leonard, Nicholas Coombs, and Madeline Casanova.
+- **Using GIS & Remote Sensing Data to Assess Crop Yield**, Sarah Olson (Soil & Water Systems, University of Idaho) -- Through an ongoing research project for the Coeur D'Alene Tribe, we are attempting to determine whether evapotranspiration (ET) is a useful metric for evaluating crop yield. Using remote sensing data, we aim to create a model using ET that can predict whether a field's yield is 'productive' or 'unproductive,' so land managers from the Tribe can target areas for environmental management. (presenting via Zoom)
+- **City LLMs: computational urban planning of tomorrow**, Gil Rezin (Computer Science, Washington State University) -- An insight into the future of urban planning and land use modelling from the perspective of AI researchers, particularly through the usage of Large Language Models. Through transformer and diffusion models, the urban planning process has the potential to be transformed, reducing labor intensity while increasing municipal efficiency and community input. (presenting via Zoom)
+
+##### Moderators
+
+- Lisa Jones (Plant Science, University of Idaho)
+- Zoom: Josh Conver (Library, Washington State University)
+"
+10:35 am - 10:45 am,"Whitewater Room",Break and Refreshments,,,
+10:45 am - 11:35 am,"Whitewater Room and Zoom",Short Talks - Morning Two,"Phil Larkin (Avista); Paul Reyes (Idaho State Tax Commission); Manda Wood (Alta Science and Engineering); Dan Cronan (Washington State University)",Ten minute presentations highlighting recent geospatial-related work,"Presenters from across the geospatial, GIS, and drone community will give 10-minute presentations highlighting their recent work.
+
+##### Presentations
+
+- **GIS and Wildfire Resiliency at Avista**, Phil Larkin (Avista) -- Avista has invested heavily in GIS technology over the past 35 years. This focus on geospatial data and analysis has been integral in the development of the Wildfire Resiliency program. Matt Ugaldea, Program Manager and Phil Larkin, Senior GIS Analyst will discuss the history of the program and exciting ways GIS is empowering decision making. (presenting via Zoom)
+- **Annexation Action: Streamlining Tax Code Administration in Idaho with GIS**, Paul Reyes (Idaho State Tax Commission) -- This presentation explains how the Idaho State Tax Commission leverages GIS technology for managing tax code areas and taxing district annexations to ensure accurate property tax assessment and collection statewide. By following clearly defined steps, the ISTC maintains compliance, prevents jurisdictional overlap, and provides timely updates to all parties. The ISTC's GIS team works closely with counties and supports their cadastral mapping efforts and the effective visualization of their parcels.
+- **Statewide Materials Management Plan (SMMP)**, Manda Wood (Alta Science and Engineering) -- Idaho DEQ received funding to support development of a Statewide Materials Management Plan (SMMP). Because Idaho does not mandate reporting from facilities accepting waste, statewide data was needed to start the planning process. DEQ contracted Alta Science & Engineering to create an interactive web mapping application integrating ESRI's Experience Builder with a custom reporting tool. Through the form and associated web map, DEQ can establish baseline data, identify gaps, set goals, track progress, and compare future results. Facilities and entities managing solid waste can voluntarily submit local and regional data, supporting the development of both regional and statewide plans. This information within the GIS database can be used for both analysis and visualization of solid waste information throughout the state. Alta also partnered with Great West Engineering to conduct outreach with the public and solid waste stakeholders from around the state. Over the summer, the team worked gathering public input on solid waste programs and facilities, concerns, and geographic nuances. These insights will dovetail with facility reporting to further refine regional and statewide plans, ensuring they reflect both quantitative data and community perspectives. The plan is scheduled for delivery in 2026.
+- **Locavores, Foodsheds, and Food Futures: An Almanac for the Palouse**, Dan Cronan (Design and Construction, Washington State University) -- The project explores how geospatial storytelling and community-based mapping can help visualize the relationships between local food systems, land use, and climate resilience across the Palouse region. This project uses GIS visualization tools to prototype a digital almanac which featuring pilot sites and work from organizations like Koppel Farm, City of Pullman's Environmental Resilience Commission, and local community gardens that connects data, narratives, and design to envision a more sustainable and self-reliant regional foodshed.
+
+##### Moderators
+
+- Lisa Jones (Plant Science, University of Idaho)
+- Zoom: Evan Williamson (Library, University of Idaho)
+"
+11:35 am - 12:40 pm,Whitewater Room,Lunch,,"Pizza provided for in person attendees, please register in advance.",
+12:40 pm - 1:25 pm,"Whitewater Room and Zoom","GIS at the Crossroads: Building Data-Driven Freight Solutions for Pullman and Whitman County","Melissa Cleveland and Cody Hodgson (Welch Comer Engineering)",Invited presentation,"The Pullman-Whitman County Freight Alternatives Study, completed in 2025 for the Palouse Regional Transportation Planning Organization, used GIS analysis to identify practical freight corridors that could divert heavy truck traffic away from downtown Pullman, Washington. This presentation explores how GIS tools enabled data-driven collaboration among regional partners in both Washington and Idaho.Presenters will discuss the process of layering spatial data, travel modeling, and public feedback to rank alternative freight routes, as well as how GIS visualization strengthened community understanding and consensus. Attendees will gain insight into replicable techniques for multi-jurisdictional freight studies, integrating GIS analytics into route evaluation, and effectively communicating technical findings to non-technical audiences.
+
+##### Bios
+
+**Melissa Cleveland**, P.E., Senior Project Manager, Welch Comer Engineers
+
+Melissa Cleveland is a senior project manager with over 20 years of civil engineering experience specializing in transportation planning, traffic operations, and public infrastructure design. She led the Pullman-Whitman County Freight Alternatives Study overseeing execution, budgeting, stakeholder coordination, and quality control.  Melissa's background includes serving as Community Development Director for the City of Hayden, Idaho, where she strengthened her focus on actionable planning and clear communication with the public. She has successfully managed complex, multi-agency projects across Idaho and Washington and has secured more than $30 million in transportation funding for local clients.  She holds a B.S. and M.S. in Civil Engineering (Traffic Operations emphasis) from the University of Idaho and is a licensed professional engineer in Idaho and Washington.
+
+**Cody Hodgson**, P.E., Project Engineer and GIS Specialist, Welch Comer Engineers
+
+Cody is a civil engineer and GIS specialist with five years of experience at Welch Comer Engineers. He led the GIS analysis and visualization for the Pullman-Whitman County Freight Alternatives Study, integrating data from WSDOT, ITD, LHTAC, Whitman and Latah Counties, and the cities of Pullman and Moscow to produce clear, spatially grounded graphics that informed route prioritization. His engineering and GIS expertise also supports downtown planning and transportation studies across the Inland Northwest, as well as data-intensive utility and water-system mapping projects. Cody excels at transforming complex datasets into intuitive maps that support planning, outreach, and cross-agency collaboration. He earned both his B.S. and M.S. in Civil Engineering (Traffic Operations concentration) from the University of Idaho and is a licensed professional engineer in Idaho and Washington.
+
+##### Moderators
+
+- Bruce Godfrey (Library, University of Idaho)
+- Zoom: Tyler Rodrigues (Library, University of Idaho)
+"
+1:25 pm - 1:50 pm,"Whitewater Room and Zoom",Short Talks - Afternoon One,"Edward Flathers (University of Idaho); Fereshteh Namdari (University of Idaho)",Ten minute presentations highlighting recent geospatial-related work,"Presenters from across the geospatial, GIS, and drone community will give 10-minute presentations highlighting their recent work.
+
+##### Presentations
+
+- **Integrating GIS, LiDAR, and AI Tools for Quality of Individual Tree Segmentation**, Edward Flathers (College of Natural Resources Forest Innovations Institute, University of Idaho) -- LiDAR has become a more common tool for forest inventory, and as LiDAR technology has advanced, data resolution has increased to allow for identification of individual trees in forests. Algorithms attempt to segment individual trees from LiDAR point clouds with varying levels of success. How can we measure the quality of segmentation and provide a quantitative confidence for individual tree inventory?
+- **Beet Leafhopper Abundance Interpolation: Classical Methods vs. Model-Based Approaches with Spatial and Spatiotemporal Evaluation**, Fereshteh Namdari (University of Idaho) -- This talk compares classical spatial interpolation (IDW, kriging) with model-based and spatiotemporal approaches to estimate and forecast beet leafhopper (Circulifer tenellus) abundance in the Columbia Basin. We test whether adding time (week) improves next-week predictions and present risk maps highlighting likely pressure hotspots to support targeted pest management. (presenting via Zoom)
+
+##### Moderators
+
+- Felix Liao (Earth and Spatial Sciences, University of Idaho)
+- Zoom: Lisa Jones (Plant Science, University of Idaho)
+"
+1:50 pm - 2:00 pm,"Whitewater Room",Break and Refreshments,,,
+2:00 pm - 2:30 pm,"Whitewater Room and Zoom","GIS Trivia!",Southern & Eastern Idaho GIS Users Group,Community session,"We will join up on Zoom and Kahoot for a regional GIS trivia challenge to celebrate GIS Day with some friendly competition.
+
+
+##### Moderators
+
+- Bruce Godfrey (Library, University of Idaho)
+- Zoom: Norm Lee (Library, University of Idaho)
+"
+2:30 pm - 3:30 pm,"Whitewater Room and Zoom","Short Talks - Afternoon Two","Eric Hildebrand (Avista); Alycia Bean (Washington State University); Priya Chakrabarti Basu (Washington State University); Robel Alemayehu (University of Idaho); Weilin Chen (University of Idaho)",Ten minute presentations highlighting recent geospatial-related work,"Presenters from across the geospatial, GIS, and drone community will give 10-minute presentations highlighting their recent work.
+
+##### Presentations
+
+- **Distribution design and the utilization of GIS**, Eric Hildebrand (CPC Wood Pole Management, Avista Utilities) -- Utility distribution design utilizing GIS systems.
+- **StoryMap to share successes of the USDA-ARS Long-Term Agroecosystem Research (LTAR) Network**, Alycia Bean (Crop and Soil Sciences, Washington State University) -- The Long-Term Agroecosystem Research (LTAR) Network is a USDA_ARS flagship initiative comprising 19 research sites, over 20 interdisciplinary working groups, and more than 700 active participants. Together, we advance integrated, stakeholder-informed science that addresses pressing challenges in agricultural sustainability. Example of ESRI StoryMap to highlight our successes.
+- **Citizen science approach to mapping the bee nutrition landscape**, Priya Chakrabarti Basu (Entomology, CAHNRS, Washington State University) -- The talk will focus on understanding the bee nutrition landscape in North America. We will also discuss how citizen scientists are shaping the various nutrition databases.
+- **Using GIS to Optimize Soil Moisture Sensor Deployment and Plot Delineation in Cambistch Farm**, Robel Alemayehu (Chemical and Biological Engineering, University of Idaho) -- I will share how GIS was used to optimize the location of soil moisture sensor deployment and delineate biochar treatment plots at Cambistch Farm. The work demonstrates how spatial analysis supports precise experimental design. 
+- **Fusing Domain Knowledge, LLMs, and GIS: A New Framework for Mineral Prospecting**, Weilin Chen (Computer Science, University of Idaho) -- This talk explores how combining expert geologic knowledge with GIS and AI helps identify potential mineralization patterns more accurately. We use an NSAI approach to link maps, domain rules, and machine learning in a transparent, explainable way.
+
+##### Moderators
+
+- Josh Conver (Library, Washington State University)
+- Zoom: Felix Liao (Earth and Spatial Sciences, University of Idaho)
+"
