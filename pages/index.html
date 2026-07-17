@@ -1,0 +1,214 @@
+---
+layout: page
+title: Home
+permalink: /
+#banner-featured-image: true
+---
+
+<style>
+    .jumbotron {
+        padding: 4rem 2rem;
+        margin-bottom: 2rem;
+        background-color: #e9ecef;
+        border-radius: 0.3rem;
+    }  
+    #jumbo-feature {
+        background-image: url('{{ "/gisday/gis-day24-mapping-minds-bg.jpg" | prepend: site.lib-media }}');
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-position: center;
+    }
+</style>
+<div class="jumbotron border" id="jumbo-feature">
+    <div class="row">
+        <div class="col-md-4">
+            <div class="card">
+                <div class="card-body">
+                    <img class="img-fluid" src="{{ '/gisday/gis-day-logo-black.png' | prepend: site.lib-media }}" alt="GIS Day">
+                    <h2 class="h5"><em>GIS on the Palouse</em></h2>
+                    <p class="h3">November 19, 2025</p>
+                    <p class="h5">Whitewater Room <em>(and Online!)</em><br>
+                        Idaho Student Union Building<br>
+                        University of Idaho<br>
+                        Moscow, Idaho 
+                    </p>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+{% capture talks %}The [Call for GIS Day short talks](https://uidaho.co1.qualtrics.com/jfe/form/SV_6fDEak4ZJw1ykqG){:.alert-link} is open! 
+We invite submissions from across the geospatial and GIS community for ten minute presentations highlighting your recent geospatial-related work, project, organization, or research. Please [submit using our form](https://uidaho.co1.qualtrics.com/jfe/form/SV_6fDEak4ZJw1ykqG){:.alert-link} by Oct 31th!{% endcapture %}
+{% capture open %}[Registration for GIS Day 2025](https://uidaho.co1.qualtrics.com/jfe/form/SV_8eoxEZtJ1Q3OFNA){:.alert-link} is open! Please register NOW to let us know how you will attend.{% endcapture %}
+{% capture done %}This year's GIS Day is complete, check back fall 2026 for our next event! Content from past years' presentations, posters, and exhibits can be found in the <a href="{{ '/gisday/repository.html' | relative_url }}" class="alert-link">Repository page</a>.{% endcapture %}
+{% capture save %}Save the date: GIS Day 2025 is November 19! Check back for call for presenters, schedule, and registration.{% endcapture %}
+{% include feature/alert.html color="info" text=done align="center" %}
+
+<div class="row">
+    <div class="col-md-2">
+        <div class="btn-group-vertical w-100 mb-4">
+            <a class="btn btn-outline-palouse" href="#schedule">Schedule</a>
+            <a class="btn btn-outline-palouse" href="#register">Registration</a>
+            <a class="btn btn-outline-palouse" href="{{ '/gisday/repository.html' | relative_url }}">Repository</a>
+            <a class="btn btn-outline-palouse" href="#sponsors">Sponsors</a>
+            <a class="btn btn-outline-palouse" href="#committee">Committee</a>
+        </div>
+    </div>
+    <div class="col-md-9">
+        <p class="lead"><a href="https://www.gisday.com/">GIS Day</a> @ University of Idaho is a free event made possible by the U of I Library, with support from <a href="#sponsors">our sponsors</a>, that brings together scholars, students, professionals, businesses, and the public to discuss geospatial technologies and demonstrate their many uses. This year's theme is <em>"GIS on the Palouse"</em>, exploring how we collaborate across our region. The sessions will take place on Wednesday, Nov 19th, 2025 as a hybrid event hosted at Whitewater room of the Idaho Student Union Building and streaming live via Zoom.</p>
+        <p>Please contact Bruce Godfrey (<a href="mailto:bgodfrey@uidaho.edu">bgodfrey@uidaho.edu</a>) with any questions.</p>
+    </div>
+</div>
+
+<hr class="my-4">
+
+<div id="schedule" class="my-3">
+    <h2>Schedule of Events</h2>
+
+    <p>GIS Day @ U of I 2025, <em>"GIS on the Palouse"</em>, is a hybrid event taking place on November 19th in the Whitewater room (<a href="https://maps.app.goo.gl/ytTF6JsPjV36MRbJ9">Idaho Student Union Building</a>) and live streaming via Zoom. Times are given in Pacific Time (PST). Please <a href="https://uidaho.co1.qualtrics.com/jfe/form/SV_8eoxEZtJ1Q3OFNA">register to let us know how you are attending</a>.</p>
+
+    <h3 class="h4 mt-4">Wednesday, Nov 19th, 2025</h3>
+
+    <p>GIS Day will feature invited speakers, panels, and short talk sessions spread across a morning (9am - 12pm) and afternoon (1pm - 3:30pm) session, with a catered lunch in between.</p>
+
+    <div class="px-2">
+        {% assign events = site.data.gisday_schedule %}
+        {% for e in events %}
+        <div class="row border rounded py-3 justify-content-end">
+            <div class="col-md-2">
+                <strong>{{ e.time }}</strong><br>
+                {{ e.location }}
+            </div>
+            <div class="col-md-4">
+                <h4>{{ e.title }}</h4>
+                {{ e.presenter }}
+            </div>
+            <div class="col-md-6">
+                <p>{{ e.description }}
+                {% if e.description_full %}<br><button class="btn btn-sm btn-outline-clearwater m-2" type="button" data-bs-toggle="collapse" data-bs-target="#collapse{{ forloop.index }}" aria-expanded="false" aria-controls="collapse{{ forloop.index }}">Details <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi icon-sprite" viewBox="0 0 16 16"> <path d="M7.247 11.14 2.451 5.658C1.885 5.013 2.345 4 3.204 4h9.592a1 1 0 0 1 .753 1.659l-4.796 5.48a1 1 0 0 1-1.506 0z"/> </svg></button>{% endif %}</p>
+            </div>
+            {% if e.description_full %}<div class="col-md-10 collapse" id="collapse{{ forloop.index }}">
+                <div class="card card-body ">
+                    {{ e.description_full | markdownify }}
+                </div>
+            </div>{% endif %}
+        </div>
+        {% endfor %}
+    </div>
+
+    <div class="alert alert-info mt-4 h5 text-center">Content from past years' presentations, posters, and exhibits can be found in the <a href="{{ '/gisday/repository.html' | relative_url }}" class="alert-link">GIS Day @ U of I Repository page</a></div>
+
+</div>
+
+<hr class="my-4">
+
+<div id="register" class="my-3"> 
+    <h2>Registration</h2>
+
+    <div class="row align-items-center">
+        
+        <div class="col-md-6">
+            
+            <p>To participate in GIS Day 2025, please register in advance to let us know if you will be attending in person or online. Visit the event <a href="https://uidaho.co1.qualtrics.com/jfe/form/SV_8eoxEZtJ1Q3OFNA">registration link</a> and fill in the form with your details. Information about how to join the sessions will be emailed to you a day before the event. Registration is free and open to all.</p>
+        </div>
+        <div class="col-md-6">
+            <p class="text-center">
+                <a class="btn btn-lg btn-outline-clearwater" href="https://uidaho.co1.qualtrics.com/jfe/form/SV_8eoxEZtJ1Q3OFNA">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi icon-sprite" viewBox="0 0 16 16">
+                    <path fill-rule="evenodd" d="M8.636 3.5a.5.5 0 0 0-.5-.5H1.5A1.5 1.5 0 0 0 0 4.5v10A1.5 1.5 0 0 0 1.5 16h10a1.5 1.5 0 0 0 1.5-1.5V7.864a.5.5 0 0 0-1 0V14.5a.5.5 0 0 1-.5.5h-10a.5.5 0 0 1-.5-.5v-10a.5.5 0 0 1 .5-.5h6.636a.5.5 0 0 0 .5-.5"/>
+                    <path fill-rule="evenodd" d="M16 .5a.5.5 0 0 0-.5-.5h-5a.5.5 0 0 0 0 1h3.793L6.146 9.146a.5.5 0 1 0 .708.708L15 1.707V5.5a.5.5 0 0 0 1 0z"/>
+                    </svg> 
+                    Registration Form
+                </a>
+            </p>
+        </div>
+
+    </div>
+
+</div>
+
+<hr class="my-4">
+
+<div id="sponsors" class="my-3"> 
+    <h2>Sponsors</h2>
+
+    <p>Each year a variety of entities generously provide support to help make this a successful event. The list recognizes our supporters.</p>
+
+    <div class="row justify-content-center mx-md-4 my-4 text-center">
+        {% assign sponsors = site.data.gisday_sponsors | where: "active",true %}
+        {% for s in sponsors %}
+        <div class="col-6 col-md-4 p-3 p-md-5">
+            <a href="{{ s.link }}" title="{{ s.sponsor }}">
+                <img src="{{ s.img | prepend: '/gisday/sponsors/' | prepend: site.lib-media }}" alt="{{ s.sponsor }}" class="img-fluid">
+            </a>
+        </div>
+        {% endfor %}
+    </div>
+
+    <div class="text-center m-3">
+        <button type="button" class="btn btn-outline-pride-gold" data-bs-toggle="modal" data-bs-target="#sponsorDetails">
+            <h3 class="m-2">Become a Sponsor</h3>
+        </button>
+    </div>
+
+    <!-- Modal -->
+    <div class="modal fade" id="sponsorDetails" tabindex="-1" role="dialog" aria-labelledby="sponsorLabel" aria-hidden="true">
+        <div class="modal-dialog modal-lg" role="document">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title" id="sponsorLabel">Sponsor GIS Day @ University of Idaho</h5>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                    <p>If you or your organization would like to become a sponsor of GIS Day at the University of Idaho please use one of the following options to make a donation:</p>
+                    <ul class="list-group mb-2">
+                        <li class="list-group-item"><strong>Online</strong><br>
+                            Go to <a href="https://giving.uidaho.edu/campaigns/gis-day-fund-1">University of Idaho Giving</a><br>
+                            Click "Make a Gift", ensure the "GIS Day Fund" is selected, and use the form to make your donation. 
+                        </li>
+                        <li class="list-group-item"><strong>By phone</strong><br>
+                            Call the University of Idaho Gift Administration Office at (208) 885-6796 and give with a credit card.<br>
+                            Indicate you are giving to the "GIS Day Fund."
+                        </li>
+                        <li class="list-group-item"><strong>By mail</strong><br>
+                            Checks may be mailed to:<br>
+                            University of Idaho Foundation 875 Perimeter Drive MS 3147 Moscow, ID 83843-3147<br>
+                            Please have the checks made out to the "University of Idaho Foundation, Inc."<br>
+                            Put "GIS Day Fund" on the check memo line or on a note accompanying the check.
+                        </li>
+                    </ul>
+
+                    <h4>Sponsorship Levels &amp; Entitlements</h4>
+                    <p>We welcome any financial contribution but respectfully suggest to following amounts:</p>
+                    <ul>
+                        <li>Friend: $50</li>
+                        <li>Professional: $100</li>
+                        <li>Corporate: $350 - logo on web page &amp; flyers; banner space; recognition during the event</li>
+                    </ul>
+                    <p>Please contact Bruce Godfrey (bgodfrey@uidaho.edu) if you have any sponsorship questions. These contributions may be tax deductible.</p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <p class="text-center"><small>If you or your organization would like to become a sponsor of GIS Day at the University of Idaho please click the button above to learn how to make a donation.</small></p>
+
+</div>
+
+<hr class="my-4">
+
+<div id="committee" class="py-3 text-center">
+
+    <h2>Planning Committee Members</h2>
+
+    <ul class="list-unstyled">
+        <li>Josh Conver (Library, Washington State University)</li>
+        <li>Bruce Godfrey - Chair (Library, University of Idaho)</li>
+        <li>Lisa Jones (Plant Science, University of Idaho)</li>
+        <li>Norman Lee (Library, University of Idaho)</li>
+        <li>Felix Liao (Earth and Spatial Sciences, University of Idaho)</li>
+        <li>Seth Thompson (Library, University of Idaho)</li>
+        <li>Evan Peter Williamson (Library, University of Idaho)</li>
+    </ul>
+
+</div>
