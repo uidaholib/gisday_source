@@ -1,5 +1,5 @@
 field,display_name,btn,hidden,sort_name,facet_name
+presentation_type,,true,
+creator,Presenter,,,
 date,Date,,,Date
 description,,,true,
-creator,Presenter,,,
-presentation_type,Type,true,
