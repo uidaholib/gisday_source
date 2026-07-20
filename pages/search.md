@@ -4,4 +4,4 @@ layout: search
 permalink: /search/
 ---
 
-## Search Collection Metadata
+## Search GIS Day Repository Metadata
