@@ -15,3 +15,32 @@
 .dropdown-menu {
     --bs-dropdown-link-active-bg: #5E48FF;
 }
+
+a {
+  text-decoration-color: #008080;
+  text-decoration-thickness: 1.5px;
+  text-underline-offset: 4px;
+}
+a {
+  color: rgba(25, 25, 25, var(--bs-link-opacity, 1));
+  text-decoration: underline;
+    text-decoration-color: currentcolor;
+    text-decoration-thickness: auto;
+  -webkit-text-decoration-color: teal;
+  text-decoration-color: teal;
+  text-decoration-thickness: 1.5px;
+  text-underline-offset: 4px;
+  transition-property: all;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+  transition-duration: .15s;
+  transition-duration: .2s;
+}
+a:hover {
+  text-decoration-thickness: 2.5px;
+}
+a:hover {
+  box-shadow: 0 3px 0 0 teal;
+}
+h1 a, h2 a {
+    text-decoration: none;
+}
