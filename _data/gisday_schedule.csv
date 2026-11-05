@@ -19,18 +19,21 @@ Heather Heward is director of the Student of Fire Initiative and a Research Assi
 - Zoom: 
 "
 10:45 am - 11:00 am,"Whitewater Room",Break and Refreshments,,,
-11:00 am - 11:50 am,"Whitewater Room and Zoom",Short Talks - Morning,"TBA",Ten minute presentations highlighting recent geospatial-related work,"Presenters from across the geospatial, GIS, and drone community will give 10-minute presentations highlighting their recent work.
+11:00 am - 11:50 am,"Whitewater Room and Zoom",Short Talks - Morning,"Ashton Sellke (Plant Sciences, University of Idaho); Shashwot Niraula (WSP USA); Daniel Cronan (School of Design and Construction, Washington State University); Jennifer Ladino, Erin James, Megan Davis, Antonio Isiordia (Confluence Lab, University of Idaho)",Ten minute presentations highlighting recent geospatial-related work,"Presenters from across the geospatial, GIS, and drone community will give 10-minute presentations highlighting their recent work.
 
 ##### Presentations
 
-- TBA!
+- Ashton Sellke (Plant Sciences, University of Idaho) - **Predicting Turkish Thistle (Carduus cinereus) Habitat Through Susceptibility Modeling in Canyon Grasslands of Oregon and Idaho** - Environmental variables that influence the spatial distributions of plant species can be combined with presence data in a GIS to predict areas of susceptible habitat for Turkish thistle. A habitat susceptibility model should decrease survey inputs and determine effort needed for control across a landscape with considerable challenges to safe accessibility.
+- Shashwot Niraula (WSP USA) - **Geospatial Application Developer** - This talk demos a custom roadway video viewer built in ArcGIS Experience Builder, which syncs road video with a map so users can explore assets and conditions along a route. I'll also show how AI tools like computer vision and large language models can work with GIS and modern software development to automate tasks and make geospatial data easier to use.
+- Daniel Cronan (School of Design and Construction, Washington State University) - **From GIS to GeoAI: Teaching Students to Map, Model, and Design Future Landscapes** - This talk explores how GIS can be taught as more than a mapping tool by integrating spatial analysis, scenario planning, and emerging GeoAI methods into graduate and design education. Drawing from a graduate NSF NRT course and a landscape architecture studio, I will share approaches for helping students move from understanding existing landscape conditions to modeling future change, evaluating alternative scenarios, and using geospatial data to inform design and planning decisions.
+- Jennifer Ladino, Erin James, Megan Davis, Antonio Isiordia (Confluence Lab, University of Idaho) - **Mapping Fire Stories: A Confluence Lab Project** - Data visualizations of wildfire, while helpful for spreading information, often limit fire to a discrete event and flatten out our embodied emotional experiences of fire and smoke. By inviting users to map and share stories of fire along personal timelines and emotional registers, the Confluence Lab's fire postcards expand what counts as a fire map--beyond the familiar imagery of flames, AQI smoke maps, and outlines of burn scars or devastated neighborhoods. Our interactive postcards show how individual wildfire experiences overlap or contradict each other, opening new ways of relating to our neighbors and to our changing landscape by amplifying stories that were previously unheard or simplified. Come learn about this ongoing project and map your story of fire!
 
 ##### Moderators
 
 - Lisa Jones (Plant Science, University of Idaho)
 - Zoom: 
 "
-11:50 am - 1:00 pm,Whitewater Room,Lunch,,"Pizza provided for in person attendees, please register in advance.",
+11:50 am - 1:00 pm,Whitewater Room,Lunch,,"Pizza provided for in person attendees, please register in advance. Confluence Lab postcards discussions.",
 1:00 pm - 1:30 pm,"Whitewater Room and Zoom","GIS Trivia!",Southern & Eastern Idaho GIS Users Group,Community session,"Live from Pocatello and Moscow, we will join up on Zoom and Kahoot for a regional GIS trivia challenge to celebrate GIS Day with some friendly competition.
 
 ##### Moderators
@@ -38,7 +41,21 @@ Heather Heward is director of the Student of Fire Initiative and a Research Assi
 - Bruce Godfrey (Library, University of Idaho)
 - Zoom: 
 "
-1:30 pm - 2:30 pm,"Whitewater Room and Zoom","Remotely Sensed Data in Natural Resources","Jason Karl (Director of the Rangeland Center, Rangeland Ecology, University of Idaho); Ed Flathers (College of Natural Resources Forest Innovations Institute, University of Idaho); Bruce Ripley (Chief innovation officer, College of Natural Resources, University of Idaho)",Invited presentation,"Remote sensed data in natural resource comes in many forms. This session will focus on how some of the more advanced remote sensing techniques such as gaussian splatting are transforming data collection, how those images are transformed into not just an immersive 3D environment but a complete high resolution 3D dataset that can be geolocated with other GIS information to make a complete high resolution digital twin of your study area.
+1:30 pm - 2:10 pm,"Whitewater Room and Zoom","Short Talks - Afternoon","Nicholas Ellison (Avista Utilities); TBA",Ten minute presentations highlighting recent geospatial-related work,"Presenters from across the geospatial, GIS, and drone community will give 10-minute presentations highlighting their recent work.
+
+##### Presentations
+
+- Nicholas Ellison (Avista Utilities) - **Drone Use for Post-Wildfire Reconnaissance** - Following the Spokane Wildfire Complex, Avista's UAS Department utilized lidar collection to support Vegetation Management and Transmission departments. These collections helped to archive data in our GIS systems, allowing for operational decision-making as restoration began.
+- TBA
+- TBA
+
+##### Moderators
+
+- Felix Liao (Earth and Spatial Sciences, University of Idaho)
+- Zoom: 
+"
+2:10 pm - 2:20 pm,"Whitewater Room",Break and Refreshments,,,
+2:20 pm - 3:30 pm,"Whitewater Room and Zoom","Remotely Sensed Data in Natural Resources","Jason Karl (Director of the Rangeland Center, Rangeland Ecology, University of Idaho); Ed Flathers (College of Natural Resources Forest Innovations Institute, University of Idaho); Bruce Ripley (Chief innovation officer, College of Natural Resources, University of Idaho)",Invited presentation,"Remote sensed data in natural resource comes in many forms. This session will focus on how some of the more advanced remote sensing techniques such as gaussian splatting are transforming data collection, how those images are transformed into not just an immersive 3D environment but a complete high resolution 3D dataset that can be geolocated with other GIS information to make a complete high resolution digital twin of your study area.
 
 Individual talks:
 
@@ -50,16 +67,4 @@ Individual talks:
 
 - Bruce Godfrey (Library, University of Idaho)
 - Zoom:
-"
-2:30 pm - 2:40 pm,"Whitewater Room",Break and Refreshments,,,
-2:40 pm - 3:30 pm,"Whitewater Room and Zoom","Short Talks - Afternoon","TBA",Ten minute presentations highlighting recent geospatial-related work,"Presenters from across the geospatial, GIS, and drone community will give 10-minute presentations highlighting their recent work.
-
-##### Presentations
-
-- TBA!
-
-##### Moderators
-
-- Felix Liao (Earth and Spatial Sciences, University of Idaho)
-- Zoom: 
 "
